@@ -35,7 +35,7 @@ vector<int> dijkstra(int V, vector<vector<int>> &edges, int src) {
     return ans;
 }
 
-// same stuff using set 
+// same stuff using *set* 
 // we can remove the no longer needed bfs calls but erase takes O(logN)
 
 vector<int> dijkstra(int V, vector<vector<int>> &edges, int src) {
