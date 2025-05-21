@@ -4,6 +4,15 @@
 void floydWarshall(vector<vector<int>> &dist) {
     int n = dist.size();
 
+    // for(auto& val: edges){
+    //     dist[val[0]][val[1]] = val[2];
+    //     dist[val[1]][val[0]] = val[2];
+    // }
+
+    // for(int i = 0; i < n; i++){
+    //     dist[i][i] = 0;
+    // }
+
 
     // if not reachable are marked with -1 then make it 1e8
     // for(int i = 0; i < n; i++){
